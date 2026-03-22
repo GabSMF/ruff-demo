@@ -23,4 +23,7 @@ line-length = 88
 target-version = "py313"
 
 [tool.ruff.lint]
-select = ["E", "F", "I"]
+select = ["E", "F", "I", "UP"]
+
+[tool.ruff.format]
+docstring-code-format = true
